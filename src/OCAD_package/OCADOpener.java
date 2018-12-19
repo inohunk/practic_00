@@ -7,7 +7,11 @@ import java.nio.ByteOrder;
 import java.nio.channels.FileChannel;
 import java.nio.channels.FileLock;
 import java.nio.channels.OverlappingFileLockException;
-
+/***
+ * @author hunkel
+ * @version 0.1.0
+ * Factory Class
+ */
 public  class OCADOpener {
         public static OCADCreator createOCADObj(String ocadFile) throws IOException {
             ByteBuffer buffer = null;

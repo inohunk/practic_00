@@ -2,7 +2,11 @@ package OCAD_package;
 
 import java.nio.ByteBuffer;
 
-
+/***
+ * @author hunkel
+ * @version 0.1.0
+ * Abstract OCAD Class
+ */
 public abstract class OCADAbstract implements OCADCreator {
 
     protected ByteBuffer buffer = null;

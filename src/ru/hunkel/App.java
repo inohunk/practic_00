@@ -6,7 +6,11 @@ import javax.swing.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
-
+/***
+ * @author hunkel
+ * @version 0.1.0
+ * Основной класс приложения, в котором будет отображаться вся получаемая информация
+ */
 public class App {
     private final String DEFAULT_DIRECTORY="D://#0cad";
     private JButton button_message;
