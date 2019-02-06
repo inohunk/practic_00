@@ -5,5 +5,19 @@ package OCAD_package;
  * Main interface for manipulate system of classes
  */
 public interface OCADCreator {
+    //File Header
     int getVersion();
+    int getFileType();
+    int getFileStatus();
+    int getSubVersion();
+    int getSubSubVersion();
+    int getFirstSymbolIndexBlock();
+    int getFirstObjectBlock();
+    //Symbols
+    int getNumberOfCharacters();
+    void getData();
+
+
+    Object test(int index);
+
 }

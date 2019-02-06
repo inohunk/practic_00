@@ -1,6 +1,5 @@
 package ru.hunkel;
 
-import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.io.RandomAccessFile;
 import java.nio.ByteBuffer;
@@ -8,7 +7,9 @@ import java.nio.ByteOrder;
 import java.nio.channels.FileChannel;
 import java.nio.channels.FileLock;
 import java.nio.channels.OverlappingFileLockException;
-import java.util.*;
+import java.util.HashMap;
+import java.util.Iterator;
+import java.util.Map;
 
 public class OCADFile {
     private String fileName;
@@ -64,11 +65,10 @@ public class OCADFile {
         return buffer.getInt(buffer.getInt(index)+4);
     }
 
-    public int getNumSymbols()  { return getNumberOfCharacters(); }
 
     public int getNumObjects() {return getObjectsInformation(getFirstObjectBlock()); }
 
-    private int getNumberOfCharacters()
+   /* private int getNumberOfCharacters()
     {
         int index = getFirstSymbolIndexBlock()+4;
         int nextSym = getFirstSymbolIndexBlock();
@@ -100,7 +100,7 @@ public class OCADFile {
             }
         }
         return count;
-    }
+    }*/
     private int getObjectsInformation(int firstIndex)
     {
         int nextObject = getFirstObjectBlock();
@@ -221,7 +221,7 @@ public class OCADFile {
             //System.out.println(key + ":" + value);
         }
     }
-    public String[] getSymbols()
+   /* public String[] getSymbols()
     {
         Iterator<Map.Entry<Integer, Integer>> iterator = symbols.entrySet().iterator();
         int index = 0;
@@ -233,7 +233,7 @@ public class OCADFile {
             collection[index] = String.valueOf(key);
         }
         return collection;
-    }
+    }*/
     public String getSymbolSize()
     {
         int indexSize = buffer.getInt(getFirstSymbolIndexBlock()+4);

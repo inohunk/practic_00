@@ -2,6 +2,7 @@ package ru.hunkel;
 
 import OCAD_package.OCADCreator;
 import OCAD_package.OCADOpener;
+
 import javax.swing.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
@@ -12,7 +13,7 @@ import java.awt.event.ActionListener;
  * Основной класс приложения, в котором будет отображаться вся получаемая информация
  */
 public class App {
-    private final String DEFAULT_DIRECTORY="D://#0cad";
+    private final String DEFAULT_DIRECTORY="D://Projects//OCAD";
     private JButton button_message;
     private JPanel panelMain;
     private JTextArea textArea1;
@@ -39,23 +40,28 @@ public class App {
             public void actionPerformed(ActionEvent e) {
                 JFileChooser fileChooser = new JFileChooser(DEFAULT_DIRECTORY);
                 fileChooser.setDialogTitle("Выбор директории");
+
                 fileChooser.setFileSelectionMode(JFileChooser.FILES_AND_DIRECTORIES);
                 int result = fileChooser.showOpenDialog(null);
                 // Проверка на выбранную директорию
                 if (result == JFileChooser.APPROVE_OPTION) {
                     try {
                         ocadFile = OCADOpener.createOCADObj(fileChooser.getSelectedFile().getPath());
-                        so(ocadFile.getVersion());
+                        so("Информация о FileHeader: \n");
+                        so("FileType: " + ocadFile.getFileType());
+                        so("File Status: " + ocadFile.getFileStatus());
+                        so("Version: " + ocadFile.getVersion() +"."+ ocadFile.getSubVersion() +"."+ ocadFile.getSubSubVersion());
+                        so("First Object Block: "+ocadFile.getFirstObjectBlock());
+                        so("First Symbol Index Block: "+ocadFile.getFirstSymbolIndexBlock());
+                        so("Number of symbols: " + ocadFile.getNumberOfCharacters());
+                        ocadFile.getData();
+
 
                     } catch (Exception ex) {
-                        errorMessage(ex.toString());
+                        so(ex.toString());
                     }
                 }
             }
         });
     }
-    private void errorMessage(String str) {
-        textArea1.setText(str);
-    }
-
 }
