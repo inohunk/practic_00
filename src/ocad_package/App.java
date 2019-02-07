@@ -1,7 +1,6 @@
-package ru.hunkel;
+package ocad_package;
 
-import OCAD_package.OCADCreator;
-import OCAD_package.OCADOpener;
+import ocad_package.interfaces.IOCADCreator;
 
 import javax.swing.*;
 import java.awt.event.ActionEvent;
@@ -17,7 +16,7 @@ public class App {
     private JButton button_message;
     private JPanel panelMain;
     private JTextArea textArea1;
-    private OCADCreator ocadFile;
+    private IOCADCreator ocadFile;
 
     public void so(Object obj)
     {
@@ -46,15 +45,20 @@ public class App {
                 // Проверка на выбранную директорию
                 if (result == JFileChooser.APPROVE_OPTION) {
                     try {
-                        ocadFile = OCADOpener.createOCADObj(fileChooser.getSelectedFile().getPath());
-                        so("Информация о FileHeader: \n");
+                        ocadFile = FabricClass.createOCADObj(fileChooser.getSelectedFile().getPath());
+                        so("FileHeader info: \n");
                         so("FileType: " + ocadFile.getFileType());
                         so("File Status: " + ocadFile.getFileStatus());
                         so("Version: " + ocadFile.getVersion() +"."+ ocadFile.getSubVersion() +"."+ ocadFile.getSubSubVersion());
                         so("First Object Block: "+ocadFile.getFirstObjectBlock());
-                        so("First Symbol Index Block: "+ocadFile.getFirstSymbolIndexBlock());
-                        so("Number of symbols: " + ocadFile.getNumberOfCharacters());
-                        ocadFile.getData();
+                        System.out.println(ocadFile.getNumberOfCharacters());
+                        ocadFile.outSymbols();
+                        //so("First Symbol Index Block: \t"+ocadFile.getFirstSymbolIndexBlock());
+                        //so("Number of symbols: " + ocadFile.getNumberOfCharacters());
+                        /*ocadFile.getNumberOfCharacters();
+                        ocadFile.getData();*/
+
+
 
 
                     } catch (Exception ex) {

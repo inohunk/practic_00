@@ -1,10 +1,9 @@
-package OCAD_package;
+package ocad_package.interfaces;
 /***
  * @author hunkel
  * @version 0.1.0
- * Main interface for manipulate system of classes
  */
-public interface OCADCreator {
+public interface IOCADCreator {
     //File Header
     int getVersion();
     int getFileType();
@@ -13,11 +12,11 @@ public interface OCADCreator {
     int getSubSubVersion();
     int getFirstSymbolIndexBlock();
     int getFirstObjectBlock();
+
     //Symbols
     int getNumberOfCharacters();
     void getData();
-
-
-    Object test(int index);
+    void outSymbols();
+    Object test();
 
 }

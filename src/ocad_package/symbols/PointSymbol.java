@@ -1,7 +1,7 @@
-package DataTypes;
+package ocad_package.symbols;
 
 public class PointSymbol extends BaseSymbol {
-    PointSymbol()
+    public PointSymbol()
     {
         otp = 1;
     }

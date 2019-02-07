@@ -1,4 +1,7 @@
-package OCAD_package;
+package ocad_package;
+
+import ocad_package.interfaces.IOCADCreator;
+import ocad_package.ocad_versions.*;
 
 import java.io.IOException;
 import java.io.RandomAccessFile;
@@ -12,12 +15,12 @@ import java.nio.channels.OverlappingFileLockException;
  * @version 0.1.0
  * Factory Class
  */
-public  class OCADOpener {
-        public static OCADCreator createOCADObj(String ocadFile) throws IOException {
+public  class FabricClass {
+        public static IOCADCreator createOCADObj(String ocadFile) throws IOException {
             ByteBuffer buffer = null;
-            OCADCreator ocadObject = null;
+            IOCADCreator ocadObject = null;
             //Открытие файла OCAD
-            try (RandomAccessFile aFile = new RandomAccessFile((String) ocadFile, "r");
+            try (RandomAccessFile aFile = new RandomAccessFile(ocadFile, "r");
                  FileChannel fc = aFile.getChannel();
                  FileLock fileLock = fc.tryLock(0L, Long.MAX_VALUE, true)) {
                 if (null != fileLock) {

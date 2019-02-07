@@ -1,8 +1,8 @@
-package DataTypes;
+package ocad_package.symbols;
 
 public class TextSymbol extends BaseSymbol
 {
-    TextSymbol()
+    public TextSymbol()
     {
 
     }

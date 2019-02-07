@@ -1,7 +1,7 @@
-package DataTypes;
+package ocad_package.symbols;
 
 public class LineSymbol extends BaseSymbol{
-    LineSymbol()
+    public LineSymbol()
     {
         otp = 2;
     }

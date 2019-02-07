@@ -1,7 +1,7 @@
-package DataTypes;
+package ocad_package.symbols;
 
 public class RectangleSymbol extends BaseSymbol {
-    RectangleSymbol()
+    public RectangleSymbol()
     {
         otp = 7;
     }
