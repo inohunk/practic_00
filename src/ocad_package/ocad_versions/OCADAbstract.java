@@ -81,6 +81,7 @@ public abstract class OCADAbstract implements IOCADCreator {
                     Integer indexValue = getSymbolID(index);
                     SymbolManager baseSymbol = symbolCreator(getOTP(index));
                     baseSymbol.setParameters(1,2);
+                    //
                     //baseSymbol.setParameters(getSymbolSize(index),getSymbolNumber(index),getOTP(index),getFlags(index));
                     //symbols.add((BaseSymbol) baseSymbol);
                     //symbols.put(index,indexValue);

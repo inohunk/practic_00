@@ -1,0 +1,762 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="311bafca-d548-470a-a3c0-63c089e39a69" name="Default Changelist" comment="Added symbol objects">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Documentation/OCAD_package/OCADAbstract.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Documentation/OCAD_package/OCADCreator.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Documentation/OCAD_package/OCADOpener.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Documentation/OCAD_package/OCAD_10.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Documentation/OCAD_package/OCAD_11.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Documentation/OCAD_package/OCAD_12.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Documentation/OCAD_package/OCAD_8.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Documentation/OCAD_package/OCAD_9.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Documentation/OCAD_package/package-frame.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Documentation/OCAD_package/package-summary.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Documentation/OCAD_package/package-tree.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Documentation/allclasses-frame.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Documentation/allclasses-noframe.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Documentation/constant-values.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Documentation/deprecated-list.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Documentation/help-doc.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Documentation/index-files/index-1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Documentation/index-files/index-2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Documentation/index-files/index-3.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Documentation/index-files/index-4.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Documentation/index-files/index-5.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Documentation/index-files/index-6.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Documentation/index-files/index-7.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Documentation/index-files/index-8.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Documentation/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Documentation/overview-frame.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Documentation/overview-summary.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Documentation/overview-tree.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Documentation/package-list" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Documentation/ru/hunkel/App.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Documentation/ru/hunkel/package-frame.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Documentation/ru/hunkel/package-summary.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Documentation/ru/hunkel/package-tree.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Documentation/script.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Documentation/stylesheet.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ocad_package/ocad_versions/OCADAbstract.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ocad_package/ocad_versions/OCADAbstract.java" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ocad_package/interfaces/IOCADCreator.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="19" column="11" selection-start-line="19" selection-start-column="11" selection-end-line="19" selection-end-column="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ocad_package/FabricClass.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="425">
+              <caret line="34" column="19" selection-start-line="34" selection-start-column="19" selection-end-line="34" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ocad_package/App.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="476">
+              <caret line="35" column="47" lean-forward="true" selection-start-line="35" selection-start-column="47" selection-end-line="35" selection-end-column="47" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ocad_package/ocad_versions/OCADAbstract.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="314">
+              <caret line="83" column="22" selection-start-line="83" selection-start-column="22" selection-end-line="83" selection-end-column="22" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ocad_package/interfaces/SymbolManager.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="6" column="44" selection-start-line="6" selection-start-column="44" selection-end-line="6" selection-end-column="44" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/ocad_package/symbols/BaseSymbol.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="595">
+              <caret line="35" column="29" selection-start-line="35" selection-start-column="29" selection-end-line="35" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="Interface" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/OCAD_package/OCADOpener.java" />
+        <option value="$PROJECT_DIR$/src/OCAD_package/OCAD_11.java" />
+        <option value="$PROJECT_DIR$/src/OCADFile.java" />
+        <option value="$PROJECT_DIR$/src/ru/hunkel/OCADFile.java" />
+        <option value="$PROJECT_DIR$/src/DataTypes/Symbol.java" />
+        <option value="$PROJECT_DIR$/src/DataTypes/BaseSymbol.java" />
+        <option value="$PROJECT_DIR$/src/DataTypes/PointSymbol.java" />
+        <option value="$PROJECT_DIR$/src/DataTypes/LineSymbol.java" />
+        <option value="$PROJECT_DIR$/src/DataTypes/AreaSymbol.java" />
+        <option value="$PROJECT_DIR$/src/DataTypes/TextSym.java" />
+        <option value="$PROJECT_DIR$/src/DataTypes/TextSymbol.java" />
+        <option value="$PROJECT_DIR$/src/DataTypes/LineTextSymbol.java" />
+        <option value="$PROJECT_DIR$/src/DataTypes/RectangleSymbol.java" />
+        <option value="$PROJECT_DIR$/src/OCAD_package/OCADAbstract.java" />
+        <option value="$PROJECT_DIR$/src/OCAD_package/OCADCreator.java" />
+        <option value="$PROJECT_DIR$/src/symbols/TextSymbol.java" />
+        <option value="$PROJECT_DIR$/src/ocad_package/OCADOpener.java" />
+        <option value="$PROJECT_DIR$/src/ocad_package/interfaces/OCADCreator.java" />
+        <option value="$PROJECT_DIR$/src/symbols/LineTextSymbol.java" />
+        <option value="$PROJECT_DIR$/src/ocad_package/symbols/LineTextSymbol.java" />
+        <option value="$PROJECT_DIR$/src/ocad_package/interfaces/IOCADCreator.java" />
+        <option value="$PROJECT_DIR$/src/ru/hunkel/App.java" />
+        <option value="$PROJECT_DIR$/src/ocad_package/App.java" />
+        <option value="$PROJECT_DIR$/src/ocad_package/interfaces/SymbolManager.java" />
+        <option value="$PROJECT_DIR$/src/ocad_package/symbols/BaseSymbol.java" />
+        <option value="$PROJECT_DIR$/src/ocad_package/OCADAbstract.java" />
+        <option value="$PROJECT_DIR$/src/ocad_package/ocad_versions/OCAD_12.java" />
+        <option value="$PROJECT_DIR$/src/ocad_package/FabricClass.java" />
+        <option value="$PROJECT_DIR$/src/ocad_package/ocad_versions/OCADAbstract.java" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-7" />
+    <option name="width" value="974" />
+    <option name="height" value="1047" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="practic_00" type="b2602c69:ProjectViewProjectNode" />
+              <item name="practic_00" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="practic_00" type="b2602c69:ProjectViewProjectNode" />
+              <item name="practic_00" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="practic_00" type="b2602c69:ProjectViewProjectNode" />
+              <item name="practic_00" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="ocad_package" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="practic_00" type="b2602c69:ProjectViewProjectNode" />
+              <item name="practic_00" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="ocad_package" type="462c0819:PsiDirectoryNode" />
+              <item name="ocad_versions" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="practic_00" type="b2602c69:ProjectViewProjectNode" />
+              <item name="practic_00" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="ocad_package" type="462c0819:PsiDirectoryNode" />
+              <item name="symbols" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549537188717" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Projects\Java\practic_00\src\ocad_package" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="App" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ocad_package.App" />
+      <module name="gui_00" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="311bafca-d548-470a-a3c0-63c089e39a69" name="Default Changelist" comment="" />
+      <created>1548835174707</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1548835174707</updated>
+      <workItem from="1548835175827" duration="932000" />
+      <workItem from="1548838270674" duration="2890000" />
+      <workItem from="1548845211480" duration="652000" />
+      <workItem from="1548922234186" duration="403000" />
+      <workItem from="1548922824081" duration="523000" />
+      <workItem from="1548932787867" duration="1027000" />
+      <workItem from="1549024595798" duration="2814000" />
+      <workItem from="1549262353909" duration="4880000" />
+      <workItem from="1549439325810" duration="11782000" />
+      <workItem from="1549535387876" duration="700000" />
+      <workItem from="1549553714629" duration="469000" />
+    </task>
+    <task id="LOCAL-00001" summary="Added symbol objects">
+      <created>1549439587479</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1549439587479</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="27072000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.12899786" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32936078" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3261105" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3997833" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.32936078" />
+      <window_info anchor="bottom" id="Duplicate detector" order="13" weight="0.32936078" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" visible="true" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Maven" order="6" />
+      <window_info anchor="right" id="Capture Analysis" order="7" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT" value="true" />
+    <MESSAGE value="Added symbol objects" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added symbol objects" />
+    <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/DataTypes/TextSym.java" />
+    <entry file="uml://JAVA/DataTypes">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>DataTypes</OriginalElement>
+          <nodes>
+            <node x="130.0" y="89.0">DataTypes.AreaSymbol</node>
+            <node x="710.0" y="89.0">DataTypes.LineSymbol</node>
+            <node x="262.0" y="89.0">DataTypes.LineTextSymbol</node>
+            <node x="344.0" y="0.0">DataTypes.BaseSymbol</node>
+            <node x="550.0" y="89.0">DataTypes.RectangleSymbol</node>
+            <node x="414.0" y="89.0">DataTypes.PointSymbol</node>
+            <node x="0.0" y="89.0">DataTypes.TextSymbol</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="DataTypes.AreaSymbol" target="DataTypes.BaseSymbol">
+              <point x="0.0" y="-14.5" />
+              <point x="186.0" y="59.0" />
+              <point x="372.0" y="59.0" />
+              <point x="-28.0" y="14.5" />
+            </edge>
+            <edge source="DataTypes.PointSymbol" target="DataTypes.BaseSymbol">
+              <point x="0.0" y="-14.5" />
+              <point x="472.0" y="69.0" />
+              <point x="409.33333333333326" y="69.0" />
+              <point x="9.333333333333314" y="14.5" />
+            </edge>
+            <edge source="DataTypes.LineTextSymbol" target="DataTypes.BaseSymbol">
+              <point x="0.0" y="-14.5" />
+              <point x="328.0" y="69.0" />
+              <point x="390.66666666666663" y="69.0" />
+              <point x="-9.333333333333314" y="14.5" />
+            </edge>
+            <edge source="DataTypes.RectangleSymbol" target="DataTypes.BaseSymbol">
+              <point x="0.0" y="-14.5" />
+              <point x="620.0" y="59.0" />
+              <point x="428.0" y="59.0" />
+              <point x="28.0" y="14.5" />
+            </edge>
+            <edge source="DataTypes.TextSymbol" target="DataTypes.BaseSymbol">
+              <point x="0.0" y="-14.5" />
+              <point x="55.0" y="49.0" />
+              <point x="353.33333333333326" y="49.0" />
+              <point x="-46.666666666666686" y="14.5" />
+            </edge>
+            <edge source="DataTypes.LineSymbol" target="DataTypes.BaseSymbol">
+              <point x="0.0" y="-14.5" />
+              <point x="765.0" y="49.0" />
+              <point x="446.66666666666663" y="49.0" />
+              <point x="46.666666666666686" y="14.5" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="1.0" x="-170.0" y="48.0" />
+          <SelectedNodes>
+            <node>DataTypes.TextSymbol</node>
+          </SelectedNodes>
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/OCAD_package">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>OCAD_package</OriginalElement>
+          <nodes>
+            <node x="216.0" y="0.0">OCAD_package.OCADCreator</node>
+            <node x="342.0" y="158.0">OCAD_package.OCAD_10</node>
+            <node x="230.0" y="158.0">OCAD_package.OCAD_9</node>
+            <node x="118.0" y="158.0">OCAD_package.OCAD_8</node>
+            <node x="0.0" y="232.0">OCAD_package.OCADOpener</node>
+            <node x="213.5" y="79.0">OCAD_package.OCADAbstract</node>
+            <node x="460.0" y="158.0">OCAD_package.OCAD_11</node>
+            <node x="0.0" y="158.0">OCAD_package.OCAD_12</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="OCAD_package.OCAD_8" target="OCAD_package.OCADAbstract">
+              <point x="0.0" y="-14.5" />
+              <point x="164.0" y="138.0" />
+              <point x="251.0" y="138.0" />
+              <point x="-25.0" y="14.5" />
+            </edge>
+            <edge source="OCAD_package.OCAD_9" target="OCAD_package.OCADAbstract">
+              <point x="0.0" y="-14.5" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="OCAD_package.OCAD_11" target="OCAD_package.OCADAbstract">
+              <point x="0.0" y="-14.5" />
+              <point x="509.0" y="128.0" />
+              <point x="326.0" y="128.0" />
+              <point x="50.0" y="14.5" />
+            </edge>
+            <edge source="OCAD_package.OCADAbstract" target="OCAD_package.OCADCreator">
+              <point x="0.0" y="-14.5" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="OCAD_package.OCAD_12" target="OCAD_package.OCADAbstract">
+              <point x="0.0" y="-14.5" />
+              <point x="49.0" y="128.0" />
+              <point x="226.0" y="128.0" />
+              <point x="-50.0" y="14.5" />
+            </edge>
+            <edge source="OCAD_package.OCAD_10" target="OCAD_package.OCADAbstract">
+              <point x="0.0" y="-14.5" />
+              <point x="391.0" y="138.0" />
+              <point x="301.0" y="138.0" />
+              <point x="25.0" y="14.5" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="1.0" x="-301.0" y="119.0" />
+          <SelectedNodes>
+            <node>OCAD_package.OCAD_12</node>
+          </SelectedNodes>
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ru/hunkel/OCADFile.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="27" column="41" selection-start-line="27" selection-start-column="41" selection-end-line="27" selection-end-column="41" />
+          <folding>
+            <element signature="e#504#522#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DataTypes/symbols/Objects/BaseObject.java" />
+    <entry file="file://$PROJECT_DIR$/src/documentation/index.html" />
+    <entry file="file://$PROJECT_DIR$/src/ocad_package/symbols/RectangleSymbol.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ocad_package/symbols/LineSymbol.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Main.java" />
+    <entry file="file://$PROJECT_DIR$/src/ocad_package/symbols/AreaSymbol.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ocad_package/symbols/PointSymbol.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="8" column="19" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ocad_package/symbols/LineTextSymbol.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement />
+          <nodes>
+            <node x="150.0" y="296.0">com</node>
+            <node x="378.0" y="148.0">netscape</node>
+            <node x="0.0" y="444.0">ru</node>
+            <node x="161.0" y="222.0">oracle</node>
+            <node x="0.0" y="148.0">ocad_package</node>
+            <node x="143.0" y="370.0">org</node>
+            <node x="209.0" y="74.0">documentation</node>
+            <node x="0.0" y="370.0">sun</node>
+            <node x="199.0" y="148.0">META-INF</node>
+            <node x="285.0" y="370.0">jdk</node>
+            <node x="0.0" y="74.0">groovyjarjarasm</node>
+            <node x="298.0" y="296.0">java</node>
+            <node x="0.0" y="222.0">groovy</node>
+            <node x="0.0" y="296.0">javax</node>
+            <node x="0.0" y="0.0">groovyjarjarcommonscli</node>
+            <node x="317.0" y="222.0">javafx</node>
+            <node x="253.0" y="0.0">groovyjarjarantlr</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="-327.0" y="191.0" />
+          <SelectedNodes>
+            <node>com</node>
+          </SelectedNodes>
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/ocad_package">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>ocad_package</OriginalElement>
+          <nodes>
+            <node x="118.0" y="158.0">ocad_package.OCAD_10</node>
+            <node x="222.5" y="79.0">ocad_package.OCADAbstract</node>
+            <node x="0.0" y="232.0">ocad_package.OCADOpener</node>
+            <node x="354.0" y="158.0">ocad_package.OCAD_9</node>
+            <node x="466.0" y="158.0">ocad_package.OCAD_8</node>
+            <node x="165.0" y="232.0">ocad_package.App</node>
+            <node x="236.0" y="158.0">ocad_package.OCAD_12</node>
+            <node x="0.0" y="158.0">ocad_package.OCAD_11</node>
+            <node x="367.5" y="79.0">ocad_package.symbols</node>
+            <node x="292.0" y="0.0">ocad_package.interfaces</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="ocad_package.OCAD_11" target="ocad_package.OCADAbstract">
+              <point x="0.0" y="-14.5" />
+              <point x="49.0" y="128.0" />
+              <point x="235.0" y="128.0" />
+              <point x="-50.0" y="14.5" />
+            </edge>
+            <edge source="ocad_package.OCAD_12" target="ocad_package.OCADAbstract">
+              <point x="0.0" y="-14.5" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="ocad_package.OCADAbstract" target="ocad_package.interfaces">
+              <point x="0.0" y="-14.5" />
+              <point x="285.0" y="54.0" />
+              <point x="324.5" y="54.0" />
+              <point x="-32.5" y="14.5" />
+            </edge>
+            <edge source="ocad_package.OCAD_10" target="ocad_package.OCADAbstract">
+              <point x="0.0" y="-14.5" />
+              <point x="167.0" y="138.0" />
+              <point x="260.0" y="138.0" />
+              <point x="-25.0" y="14.5" />
+            </edge>
+            <edge source="ocad_package.symbols" target="ocad_package.interfaces">
+              <point x="0.0" y="-14.5" />
+              <point x="429.0" y="54.0" />
+              <point x="389.5" y="54.0" />
+              <point x="32.5" y="14.5" />
+            </edge>
+            <edge source="ocad_package.OCAD_9" target="ocad_package.OCADAbstract">
+              <point x="0.0" y="-14.5" />
+              <point x="400.0" y="138.0" />
+              <point x="310.0" y="138.0" />
+              <point x="25.0" y="14.5" />
+            </edge>
+            <edge source="ocad_package.OCAD_8" target="ocad_package.OCADAbstract">
+              <point x="0.0" y="-14.5" />
+              <point x="512.0" y="128.0" />
+              <point x="335.0" y="128.0" />
+              <point x="50.0" y="14.5" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="1.0" x="-300.0" y="85.0" />
+          <SelectedNodes>
+            <node>ocad_package.interfaces</node>
+          </SelectedNodes>
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ocad_package/symbols/TextSymbol.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="32" selection-start-line="2" selection-start-column="32" selection-end-line="2" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ocad_package/FabricClass.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="34" column="19" selection-start-line="34" selection-start-column="19" selection-end-line="34" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ocad_package/ocad_versions/OCAD_8.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ocad_package/ocad_versions/OCAD_9.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ocad_package/ocad_versions/OCAD_10.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ocad_package/ocad_versions/OCAD_11.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ocad_package/ocad_versions/OCAD_12.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ocad_package/App.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="35" column="47" lean-forward="true" selection-start-line="35" selection-start-column="47" selection-end-line="35" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ocad_package/interfaces/IOCADCreator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="11" selection-start-line="19" selection-start-column="11" selection-end-line="19" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ocad_package/ocad_versions/OCADAbstract.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="314">
+          <caret line="83" column="22" selection-start-line="83" selection-start-column="22" selection-end-line="83" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ocad_package/interfaces/SymbolManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="44" selection-start-line="6" selection-start-column="44" selection-end-line="6" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ocad_package/symbols/BaseSymbol.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="595">
+          <caret line="35" column="29" selection-start-line="35" selection-start-column="29" selection-end-line="35" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>11</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>gui_00</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
