@@ -15,8 +15,15 @@ public interface IOCADCreator {
 
     //Symbols
     int getNumberOfCharacters();
-    void getData();
     void outSymbols();
-    Object test();
+
+
+
+    //
+    String getFileName();
+    int getFileNamePosition();
+    int getFileNameSize();
+    int test();
+
 
 }

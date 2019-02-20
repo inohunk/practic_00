@@ -37,6 +37,43 @@ public abstract class OCADAbstract implements IOCADCreator {
 
     public int getFirstObjectBlock() { return buffer.getInt(12);}
 
+
+    private String hexToString(String hex) {
+        StringBuilder sb = new StringBuilder();
+        for (int count = 0; count < hex.length() - 1; count += 2) {
+            String output = hex.substring(count, (count + 2));
+            int decimal = Integer.parseInt(output, 16);
+            sb.append((char)decimal);
+        }
+        return sb.toString();
+    }
+
+    public int getFileNamePosition()
+    {
+        return buffer.getInt(36);
+    }
+    public int getFileNameSize()
+    {
+        return buffer.getInt(40);
+    }
+    public String getFileName()
+    {
+        String source = "";
+        /*System.out.println("Source is: " + source);
+        System.out.println(getFileNamePosition());
+        System.out.println(getFileNameSize());*/
+        int pos=getFileNamePosition();
+        for(int i=0;i<getFileNameSize();i++)
+        {
+            String num = Integer.toHexString(buffer.get(pos));
+            source+=num;
+            //System.out.println((i+1)+"("+pos+")"+" : " +buffer.get(pos)+" - " + hexToString(String.valueOf(num)));
+            // += hexToString(String.valueOf(buffer.get(pos)));
+            pos++;
+        }
+        source = hexToString(source);
+        return source;
+    }
     //Symbols
     //private Map<Integer,Integer> symbols = new HashMap<Integer, Integer>();
     private ArrayList<BaseSymbol> symbols = new ArrayList<>();
@@ -59,10 +96,9 @@ public abstract class OCADAbstract implements IOCADCreator {
     {
         return buffer.getInt(buffer.getInt(index)+4);
     }
-    public void getData() {}
 
-    public Object test() {
-        return buffer.getInt(230260);
+    public int test() {
+        return buffer.getInt(40);
     }
 
     public int getNumberOfCharacters()

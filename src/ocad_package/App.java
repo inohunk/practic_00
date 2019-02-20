@@ -30,9 +30,14 @@ public class App {
         frame.setSize(900,600);
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frame.setVisible(true);
+
+        //test
+
+
     }
 
     public App() {
+
         //Слушатель кнопки открытия FileChooser
         button_message.addActionListener(new ActionListener() {
             @Override
@@ -46,13 +51,13 @@ public class App {
                 if (result == JFileChooser.APPROVE_OPTION) {
                     try {
                         ocadFile = FabricClass.createOCADObj(fileChooser.getSelectedFile().getPath());
+                        so(fileChooser.getSelectedFile().getPath());
                         so("FileHeader info: \n");
                         so("FileType: " + ocadFile.getFileType());
                         so("File Status: " + ocadFile.getFileStatus());
                         so("Version: " + ocadFile.getVersion() +"."+ ocadFile.getSubVersion() +"."+ ocadFile.getSubSubVersion());
-                        so("First Object Block: "+ocadFile.getFirstObjectBlock());
-                        System.out.println(ocadFile.getNumberOfCharacters());
-                        ocadFile.outSymbols();
+                        //so("First Object Block: "+ocadFile.getFirstObjectBlock());
+                        so("File name: " + ocadFile.getFileName());
                         //so("First Symbol Index Block: \t"+ocadFile.getFirstSymbolIndexBlock());
                         //so("Number of symbols: " + ocadFile.getNumberOfCharacters());
                         /*ocadFile.getNumberOfCharacters();
