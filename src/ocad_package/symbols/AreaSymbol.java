@@ -3,7 +3,7 @@ package ocad_package.symbols;
 public class AreaSymbol extends BaseSymbol {
     public AreaSymbol()
     {
-        otp = 3;
+        setOtp((byte) 3);
     }
     int borderSym;
     short fillColor;

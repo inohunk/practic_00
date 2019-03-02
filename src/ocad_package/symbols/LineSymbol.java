@@ -3,7 +3,7 @@ package ocad_package.symbols;
 public class LineSymbol extends BaseSymbol{
     public LineSymbol()
     {
-        otp = 2;
+        setOtp((byte) 2);
     }
     short lineColor;
     short lineWidth;

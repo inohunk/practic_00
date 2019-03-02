@@ -4,6 +4,6 @@ public class LineTextSymbol extends BaseSymbol
 {
     public LineTextSymbol()
     {
-        otp = 6;
+        setOtp((byte) 6);
     }
 }

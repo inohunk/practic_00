@@ -3,7 +3,7 @@ package ocad_package.symbols;
 public class PointSymbol extends BaseSymbol {
     public PointSymbol()
     {
-        otp = 1;
+        setOtp((byte) 1);
     }
 
     //DataSize word
