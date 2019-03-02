@@ -1,4 +1,9 @@
 package ocad_package.interfaces;
+
+import ocad_package.symbols.BaseSymbol;
+
+import java.util.ArrayList;
+
 /***
  * @author hunkel
  * @version 0.1.0
@@ -15,6 +20,7 @@ public interface IOCADCreator {
 
     //Symbols
     int getNumberOfCharacters();
+    ArrayList<BaseSymbol> getSymbols();
     void outSymbols();
 
 
